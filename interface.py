@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-pickle_in=open(‘classifier.pkl’,’rb’)
+pickle_in=open('classifier.pkl',’rb’)
 clf=pickle.load(pickle_in)
 a=st.number_input('sepal length')
 b=st.number_input('sepal width')
